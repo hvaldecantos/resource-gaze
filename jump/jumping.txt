@@ -1,0 +1,50 @@
+################################################################################
+PILOT TASK: read the sentences as they instruct you. Start with sentence FORTH
+################################################################################
+
+
+
+
+
+
+FIRST: "Dear Prudence, see the sunny skies." Jump to THIRD.
+
+
+
+
+
+
+
+
+
+SECOND: "Dear Prudence, won't you open up your eyes?." Click back buttom.
+
+
+
+
+
+
+
+
+
+THIRD: "The wind is low, the birds will sing." Jump to FIFTH.
+
+
+
+
+
+
+
+
+
+FOURTH: "Dear Prudence, open up your eyes." Jump to FIRST.
+
+
+
+
+
+
+
+
+
+FIFTH: "That you are part of everything." Jump to SECOND.

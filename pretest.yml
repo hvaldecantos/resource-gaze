@@ -1,0 +1,4 @@
+name: "English grammar test"
+description: "Select an appropriate option for each claim in the right:"
+questions: ["A complete English sentence cannot have a subject.", "A transitive verb needs a direct object."]
+options: ['--', 'true', 'false', 'dk']
