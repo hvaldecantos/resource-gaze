@@ -1,0 +1,24 @@
+id:
+  "jump"
+name:
+  "Unordered sentences"
+enabled:
+  True
+warmup:
+  False
+description:
+  This is only a test to validate participant's gaze.
+code:
+  text:
+    resource-gaze/text/jump
+tasks:
+  text:
+    [
+      {
+        id: 'unorderedsentences',
+        name: "Unordered sentences.",
+        description: "Please, read the file 'jumping.txt' while you follow the intructions of what sentence to read. Then, tell us:",
+        questions: ["Were you able to follow the instructions?", "Did you repeat the reading of any sentence?", "Do you like the song 'Dear prudence' by The Beatles?"],
+        options: ['--', 'yes', 'no', 'dk']
+      }
+    ]

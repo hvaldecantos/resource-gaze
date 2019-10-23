@@ -1,0 +1,24 @@
+id:
+  "scroll"
+name:
+  "Ordered sentences"
+enabled:
+  True
+warmup:
+  True
+description:
+  This is only a test to validate participant's gaze.
+code:
+  text:
+    resource-gaze/text/scroll
+tasks:
+  text:
+    [
+      {
+        id: 'orderedsentences',
+        name: "Ordered sentences.",
+        description: "Please, read the file 'top_down.txt' from top to bottom. Then, tell us:",
+        questions: ["Were you able to follow the instructions?"],
+        options: ['--', 'yes', 'no', 'dk']
+      }
+    ]

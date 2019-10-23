@@ -1,0 +1,24 @@
+id:
+  "space"
+name:
+  "Spelling words"
+enabled:
+  True
+warmup:
+  False
+description:
+  This is only a test to validate participant's gaze.
+code:
+  text:
+    resource-gaze/text/space
+tasks:
+  text:
+    [
+      {
+        id: 'spellwords',
+        name: "Spelling words.",
+        description: "Please, spell once each word contained in each file. Then, tell us:",
+        questions: ["Were you able to spell the four words?", "Did you repeat any spelling?"],
+        options: ['--', 'yes', 'no', 'dk']
+      }
+    ]

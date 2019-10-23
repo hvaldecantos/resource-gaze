@@ -1,0 +1,24 @@
+id:
+  "words"
+name:
+  "Random words test"
+enabled:
+  True
+warmup:
+  False
+description:
+  This is only a test to validate the participant's gaze.
+code:
+  text:
+    resource-gaze/text/words
+tasks:
+  text:
+    [
+      {
+        id: 'randomwords',
+        name: "Random words.",
+        description: "Please, read only the colored words in bold in the file 'words.txt'. Then, tell us:",
+        questions: ["Were you able to follow the instructions?"],
+        options: ['--', 'yes', 'no', 'dk']
+      }
+    ]
